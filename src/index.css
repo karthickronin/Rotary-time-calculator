@@ -1,0 +1,178 @@
+/* Overall layout */
+.home-container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .title {
+    font-size: 32px;
+    color: #4b0082;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Input section */
+  .input-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-name {
+    padding: 10px;
+    font-size: 16px;
+    width: 250px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .add-task-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .add-task-button:hover {
+    background-color: #6a0dad;
+  }
+  
+  /* Task list styling */
+  .task-list {
+    margin-top: 20px;
+  }
+  
+  .task-heading {
+    font-size: 24px;
+    color: #4b0082;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .task-item {
+    background-color: #f4f4f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .task-info {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
+  .view-details-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #007bff;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  .view-details-link:hover {
+    text-decoration: underline;
+  }
+/* Overall layout */
+.task-container {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .task-title {
+    font-size: 32px;
+    color: #4b0082;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Time period button styles */
+  .add-period-btn,
+  .set-time-btn,
+  .calculate-btn {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin: 5px 0;
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-period-btn:hover,
+  .set-time-btn:hover,
+  .calculate-btn:hover {
+    background-color: #6a0dad;
+  }
+  
+  /* Input styling */
+  input[type="time"] {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Time period container styles */
+  .time-period-container {
+    background-color: #f4f4f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .time-period-container p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  /* Total section styles */
+  .totals {
+    background-color: #f4f4f9;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .totals p {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Back to Home link */
+  .back-home-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: #007bff;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  
+  .back-home-link:hover {
+    text-decoration: underline;
+  }
+  .language-btn {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .language-btn:hover {
+    background-color: #6a0dad;    ;
+  }
+  
